@@ -1,0 +1,18 @@
+{
+  "name": "angular-codeschool",
+  "version": "0.0.1",
+  "authors": [
+    "heisenberg@mss.io"
+  ],
+  "description": "Angular Codeschool Part 1",
+  "license": "MIT",
+  "homepage": "www.mss.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
