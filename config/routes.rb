@@ -1,4 +1,5 @@
 AngularCodeschool::Application.routes.draw do
+  resources :posts, only: [:index, :create]
   root :to => 'high_voltage/pages#show', id: 'index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

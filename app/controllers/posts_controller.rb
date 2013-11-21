@@ -2,14 +2,11 @@ class PostsController < ApplicationController
   respond_to :json
 
   def index
-    respond_to do |format|
-      format.html
-      format.json { render json: Post.all }
-    end
+    render json: Post.all
   end
 
   def create
-    respond_with Post.create(secure_params)
+    render json: Post.create(secure_params)
   end
 
   private
